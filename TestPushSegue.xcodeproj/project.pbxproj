@@ -19,6 +19,8 @@
 		5360E13D1998FDF3003E425F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5360E1251998FDF3003E425F /* UIKit.framework */; };
 		5360E1451998FDF3003E425F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5360E1431998FDF3003E425F /* InfoPlist.strings */; };
 		5360E1471998FDF3003E425F /* TestPushSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360E1461998FDF3003E425F /* TestPushSegueTests.m */; };
+		5360E1511998FE1A003E425F /* TestPushSegue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5360E1501998FE1A003E425F /* TestPushSegue.storyboard */; };
+		5360E1541998FFA0003E425F /* SVKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5360E1531998FFA0003E425F /* SVKFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5360E1421998FDF3003E425F /* TestPushSegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPushSegueTests-Info.plist"; sourceTree = "<group>"; };
 		5360E1441998FDF3003E425F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5360E1461998FDF3003E425F /* TestPushSegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPushSegueTests.m; sourceTree = "<group>"; };
+		5360E1501998FE1A003E425F /* TestPushSegue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestPushSegue.storyboard; sourceTree = "<group>"; };
+		5360E1521998FFA0003E425F /* SVKFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVKFirstViewController.h; sourceTree = "<group>"; };
+		5360E1531998FFA0003E425F /* SVKFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVKFirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		5360E1151998FDF3003E425F = {
 			isa = PBXGroup;
 			children = (
+				5360E1501998FE1A003E425F /* TestPushSegue.storyboard */,
+				5360E1521998FFA0003E425F /* SVKFirstViewController.h */,
+				5360E1531998FFA0003E425F /* SVKFirstViewController.m */,
 				5360E1271998FDF3003E425F /* TestPushSegue */,
 				5360E1401998FDF3003E425F /* TestPushSegueTests */,
 				5360E1201998FDF3003E425F /* Frameworks */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5360E1511998FE1A003E425F /* TestPushSegue.storyboard in Resources */,
 				5360E12C1998FDF3003E425F /* InfoPlist.strings in Resources */,
 				5360E1341998FDF3003E425F /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5360E12E1998FDF3003E425F /* main.m in Sources */,
+				5360E1541998FFA0003E425F /* SVKFirstViewController.m in Sources */,
 				5360E1321998FDF3003E425F /* SVKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
